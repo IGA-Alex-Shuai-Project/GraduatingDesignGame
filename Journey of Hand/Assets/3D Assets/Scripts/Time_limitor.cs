@@ -6,7 +6,7 @@ using TMPro;
 public class Time_limitor : MonoBehaviour
 {
     public TextMeshProUGUI TimeRecoder; 
-    private EndingGameUIcontrol endc;  
+    //private EndingGameUIcontrol endc;  
     private float leftTime;
     public float TotalTime=60f;
     private bool isended=false;
@@ -22,7 +22,7 @@ public class Time_limitor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        endc = GetComponent<EndingGameUIcontrol>();
+        //endc = GetComponent<EndingGameUIcontrol>();
         leftTime=TotalTime;
         StartCoroutine(Countdown());
     }
