@@ -79,6 +79,8 @@
      <Compile Include="Assets\3D Assets\Scripts\HandControl.cs" />
      <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
      <Compile Include="Assets\3D Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scene5\Ball.cs" />
+     <Compile Include="Assets\Scene5\LaunchBall.cs" />
      <None Include="Assets\Resource\ABResources\App\Shaders\POP\POP_CF_ThingLit_AlphaTest_Outline.shader" />
      <None Include="Assets\Resource\ABResources\App\Shaders\POP\POP_SIM_SceneSimpleLit_NoZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
