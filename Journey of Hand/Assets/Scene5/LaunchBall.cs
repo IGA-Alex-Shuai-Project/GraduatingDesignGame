@@ -71,7 +71,7 @@ public class LaunchBall : MonoBehaviour
         Vector3 launchDeraction=BallResetPoint.up;
         rb.AddForce(launchDeraction * Force);
 
-        Invoke(nameof(ResetBall), 3f);
+        Invoke(nameof(ResetBall), 4f);
         
      
     }

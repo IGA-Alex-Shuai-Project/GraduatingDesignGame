@@ -10,7 +10,7 @@ public class Ball : MonoBehaviour
         if (other.CompareTag("BoardArea"))
         {
             
-            Invoke("invokeObject",2f);
+            Invoke("invokeObject",1f);
         }
     }
     private void invokeObject()
