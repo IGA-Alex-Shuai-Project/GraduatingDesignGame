@@ -306,6 +306,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
         <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+        <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -371,6 +374,12 @@
     </Reference>
     <Reference Include="NetMQ">
         <HintPath>C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Assets\3D Assets\Plugins\CodeAssist\Editor\ExternalReferences\NetMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+        <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

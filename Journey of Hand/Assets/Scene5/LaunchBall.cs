@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using TreeEditor;
+//using TreeEditor;
 using UnityEngine;
 using TMPro;
 
@@ -19,6 +19,7 @@ public class LaunchBall : MonoBehaviour
     public float MinDistance;//框的最近距离
     [Header("SetUI")]
     public TMP_Text ScoreText;
+    public TMP_Text QiuForceText;
 
     public float Force = 0;
     Rigidbody rb;
@@ -35,8 +36,14 @@ public class LaunchBall : MonoBehaviour
 
     void Update()
     {
+        float DemoForce = Force/10 ;
+        int intForce = Mathf.RoundToInt(DemoForce);
+        QiuForceText.text = intForce.ToString();
         handValue = handcontroL.FingerDegreeAll;
-
+        if(handValue>40)
+        {
+            canHold = true;
+        }
 
         if (canHold)
         {
@@ -44,7 +51,7 @@ public class LaunchBall : MonoBehaviour
             {
                 isHolding = true;
             }
-            if (handValue<15) //替换为松开阈值
+            if (handValue<30 && isHolding) //替换为松开阈值
             {
                 isHolding = false;
                 Launch();
@@ -83,7 +90,8 @@ public class LaunchBall : MonoBehaviour
     }
 
     public void ReaetTarget()
-    {
+    { 
+        Debug.Log("enterArea");
         score += 1;
         ScoreText.text = score.ToString();
         float x = Random.Range(MinDistance, MaxDistance);
