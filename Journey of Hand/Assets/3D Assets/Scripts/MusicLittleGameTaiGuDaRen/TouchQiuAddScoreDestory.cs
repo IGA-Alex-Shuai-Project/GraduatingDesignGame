@@ -7,6 +7,7 @@ public class TouchQiuAddScoreDestory : MonoBehaviour
     // Start is called before the first frame update
     HandControl FingerDegree;
     public TextMeshProUGUI ScoreGrabText ;
+    public TextMeshProUGUI ScoreGrabText2 ;
     private int ScoreValue = 0 ;
     private float FingerDegreeValue = 0 ;
     private bool numberSwitch = false ;
@@ -23,6 +24,7 @@ public class TouchQiuAddScoreDestory : MonoBehaviour
     {
         FingerDegreeValue = FingerDegree.FingerDegreeAll;
         ScoreGrabText.text = ScoreValue + " ";
+        ScoreGrabText2.text = ScoreValue + " ";
         //Debug.Log(FingerDegreeValue);
         
     }

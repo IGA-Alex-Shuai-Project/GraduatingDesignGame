@@ -3,11 +3,13 @@ using System.Collections.Generic;
 //using TreeEditor;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class LaunchBall : MonoBehaviour
 {
     HandControl handcontroL;
     public GameObject hand;
+    public GameObject timeRecoder;
     [Header("SetBall")]
     public GameObject Ball;
     public Transform BallResetPoint;//球的生成点
@@ -19,7 +21,10 @@ public class LaunchBall : MonoBehaviour
     public float MinDistance;//框的最近距离
     [Header("SetUI")]
     public TMP_Text ScoreText;
+    public TMP_Text ScoreText2;
     public TMP_Text QiuForceText;
+    public Slider slider;
+    private bool uiShow= false;
 
     public float Force = 0;
     Rigidbody rb;
@@ -28,18 +33,28 @@ public class LaunchBall : MonoBehaviour
     GameObject curBall;
     float score=0;
     private float handValue ;
+    private bool launched = true;
+    private float sliderValue = 0;
+    private float resetTime;
+    private float B = 0;
+    StaticSceneTimeRestrict SSTR;
+    public GameObject TimeAddRemind;
     void Start()
-    {
+    {   SSTR = timeRecoder.GetComponent<StaticSceneTimeRestrict>();
+        slider.value = sliderValue ;
         ResetBall();
         handcontroL = hand.GetComponent<HandControl>();
     }
 
     void Update()
     {
+        slider.value = sliderValue ;
         float DemoForce = Force/10 ;
+        sliderValue = Mathf.InverseLerp(0, 75, DemoForce);
         int intForce = Mathf.RoundToInt(DemoForce);
         QiuForceText.text = intForce.ToString();
         handValue = handcontroL.FingerDegreeAll;
+        resetTime = 0.5f + sliderValue*4 ;
         if(handValue>40)
         {
             canHold = true;
@@ -59,22 +74,35 @@ public class LaunchBall : MonoBehaviour
         }
         if (isHolding)
         {
-            Force += Time.deltaTime * ForceRate;
+            if(launched)
+           { Force += Time.deltaTime * ForceRate;}
         }
+
+        if(uiShow)
+        {
+            float a = SSTR.endingTime ;
+            Invoke("TimeAddShouwOff",1f);
+        }
+    }
+    private void TimeAddShouwOff()
+    {
+        TimeAddRemind.SetActive(false);
+        uiShow = false ;
     }
     public void Launch()
     {
-        if (Force > 0)
+        if(launched)
+        {if (Force > 0)
         {
             canHold = false;
         }
         Vector3 launchDeraction=BallResetPoint.up;
         rb.AddForce(launchDeraction * Force);
-
-        Invoke(nameof(ResetBall), 4f);
-        
+        launched = false ;
+        Invoke(nameof(ResetBall), resetTime);}
      
     }
+    
 
     public void ResetBall()
     {
@@ -84,6 +112,7 @@ public class LaunchBall : MonoBehaviour
             curBall = Instantiate(Ball, BallResetPoint.position, Quaternion.identity);
             rb = curBall.GetComponent<Rigidbody>();
             curBall.GetComponent<Ball>().launcher = this;
+             launched = true;
         }
         Force = 0;
         canHold = true;
@@ -91,9 +120,15 @@ public class LaunchBall : MonoBehaviour
 
     public void ReaetTarget()
     { 
+        ResetBall();
         Debug.Log("enterArea");
         score += 1;
+        SSTR.endingTime+=15;
+        B = SSTR.endingTime;
+        TimeAddRemind.SetActive(true);
+        uiShow = true ;
         ScoreText.text = score.ToString();
+        ScoreText2.text = score.ToString();
         float x = Random.Range(MinDistance, MaxDistance);
         Target.position = new Vector3(Target.position.x, Target.position.y, transform.position.z + x);
     }

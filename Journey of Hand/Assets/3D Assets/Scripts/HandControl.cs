@@ -161,7 +161,7 @@ public class HandControl : MonoBehaviour
             }
             if (!goBreak)
             {
-                if (fingerWu + fingerShi + fingerDa + fingerZhon + fingerXiao < 200F)
+                if (fingerWu + fingerShi + fingerDa + fingerZhon + fingerXiao < fingerflyLimit)
                 { goBreak = true; }
             }
             float qiuscale;

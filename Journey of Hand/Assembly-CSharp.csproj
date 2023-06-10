@@ -48,6 +48,7 @@
      <Compile Include="Assets\3D Assets\Scripts\EndingGameUIcontrol.cs" />
      <Compile Include="Assets\3D Assets\Scripts\DataRecord_scobj\ComPortAutoTest.cs" />
      <Compile Include="Assets\3D Assets\Scripts\BirdJump\BirdJumpLevel.cs" />
+     <Compile Include="Assets\3D Assets\Scripts\StaticSceneTimeRestrict.cs" />
      <Compile Include="Assets\Ardity\Scripts\SerialController.cs" />
      <Compile Include="Assets\Ardity\Scripts\Threads\SerialThread.cs" />
      <Compile Include="Assets\3D Assets\Scripts\MathfLerpTest.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadLines.cs" />
      <Compile Include="Assets\3D Assets\Scripts\MusicLittleGameTaiGuDaRen\ResetPosRig.cs" />
      <Compile Include="Assets\3D Assets\Scripts\ArdityTest.cs" />
+     <Compile Include="Assets\3D Assets\Scripts\GameEndingArea.cs" />
      <Compile Include="Assets\3D Assets\Scripts\QuestController.cs" />
      <Compile Include="Assets\3D Assets\Scripts\HandFingerBending.cs" />
      <Compile Include="Assets\3D Assets\Scripts\HandControl.cs" />

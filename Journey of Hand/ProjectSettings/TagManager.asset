@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HandArea
   - BoardArea
+  - EndArea
   layers:
   - Default
   - TransparentFX
