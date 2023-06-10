@@ -21,7 +21,7 @@ public class QiuAreaStayScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // InvokeRepeating("valueAdd", 1f, 1f);
+        // Repeating("valueAdd", 1f, 1f);
 
         score = Mathf.RoundToInt(ss);
         if(qiuScore!= null)

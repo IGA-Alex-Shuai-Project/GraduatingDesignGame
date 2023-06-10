@@ -2685,7 +2685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -281.7, y: -126.9}
+  m_AnchoredPosition: {x: -291, y: -91}
   m_SizeDelta: {x: 524.8, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019391131
@@ -2708,10 +2708,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Make a fist to start, and launch the ball
+  m_text: "\u63E1\u62F3\u7684\u65F6\u95F4\u4F1A\u5F71\u54CD\u5C0F\u7403\u53D1\u5C04\u7684\u8DDD\u79BB\uFF0C\u52AA\u529B\u5C06\u5C0F\u7403\u9001\u5165\u6D1E\u53E3\u5427\u3002\u6BCF\u4E00\u6B21\u6210\u529F\u53EF\u83B7\u5F97\u79EF\u5206\u589E\u52A0\uFF0C\u4E14\u83B7\u5F97\u589E\u52A015s\u7684\u5956\u52B1\u65F6\u957F\uFF0C\u505A\u51FA\u63E1\u62F3\u624B\u52BF\u5373\u53EF\u5F00\u59CB"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aa5683163f7a6e242aa93be75141ac61, type: 2}
+  m_sharedMaterial: {fileID: -5459410016884986833, guid: aa5683163f7a6e242aa93be75141ac61,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2735,8 +2736,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.1
-  m_fontSizeBase: 47.1
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
