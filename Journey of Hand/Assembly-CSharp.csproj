@@ -42,6 +42,7 @@
      <Compile Include="Assets\3D Assets\Scripts\MusicLittleGameTaiGuDaRen\ReAbleObiect.cs" />
      <Compile Include="Assets\Ardity\Scripts\Samples\SampleUserPolling_JustRead.cs" />
      <Compile Include="Assets\3D Assets\Scripts\DataRecord_scobj\StartComDataScriptObject.cs" />
+     <Compile Include="Assets\3D Assets\Scripts\FistWarning.cs" />
      <Compile Include="Assets\3D Assets\Scripts\AndroidComConnectionTest\Android_com_connect.cs" />
      <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadCustomDelimiter.cs" />
      <Compile Include="Assets\3D Assets\Scripts\MessageManager.cs" />
@@ -83,7 +84,6 @@
      <Compile Include="Assets\3D Assets\Scripts\HandControl.cs" />
      <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
      <Compile Include="Assets\3D Assets\Scripts\Rotate.cs" />
-     <Compile Include="Assets\3D Assets\Scripts\FistWarning.cs" />
      <None Include="Assets\PopResource\ABResources\App\Shaders\POP\POP_CF_ThingLit_AlphaTest_Outline.shader" />
      <None Include="Assets\PopResource\ABResources\App\Shaders\POP\POP_SIM_SceneSimpleLit_NoZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
