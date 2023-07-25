@@ -15,7 +15,7 @@ C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGam
 -logFile
 Logs/AssetImportWorker8.log
 -srvPort
-6068
+6621
 Successfully changed project path to: C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
 C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [54316] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1209555686 [EditorId] 1209555686 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12804] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1944606163 [EditorId] 1944606163 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [54316] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1209555686 [EditorId] 1209555686 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12804] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1944606163 [EditorId] 1944606163 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,83 +67,83 @@ Initialize mono
 Mono path[0] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001822 seconds.
+Registered in 0.002041 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 92.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.480 seconds
+- Completed reload, in  0.428 seconds
 Domain Reload Profiling:
-	ReloadAssembly (480ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (428ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (354ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
+				InitializePlatformSupportModulesInManaged (37ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007414 seconds.
+Registered in 0.007018 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 88.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  0.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (521ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (459ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,13 +151,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.85 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5590 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (91.9 MB). Loaded Objects now: 6037.
-Memory consumption went from 303.5 MB to 211.6 MB.
-Total: 4.899500 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.088500 ms MarkObjects: 4.205600 ms  DeleteObjects: 0.332700 ms)
+Unloading 60 unused Assets / (92.0 MB). Loaded Objects now: 6037.
+Memory consumption went from 303.6 MB to 211.6 MB.
+Total: 4.000500 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.086800 ms MarkObjects: 3.396800 ms  DeleteObjects: 0.251700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,15 +170,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 177811.353136 seconds.
-  path: Assets/LowPolyGameScene/SimpleLowPolyNature/Materials/Mushroom3Mat.mat
-  artifactKey: Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyGameScene/SimpleLowPolyNature/Materials/Mushroom3Mat.mat using Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1140bb2c73f8293c60ee00e71595bc') in 0.195753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.464291 seconds.
-  path: Assets/SkyBoxPlugin/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
-  artifactKey: Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxPlugin/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat using Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb62276115889b1d5c9f35620450412') in 0.010455 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
