@@ -36,6 +36,7 @@ public class Level3PowerConsist : MonoBehaviour
     private bool isended=false;
     public GameObject needCloseUI;
     public GameObject needOpenUI;
+    private bool opengamelevelt = true ;
     
 
 
@@ -53,7 +54,8 @@ public class Level3PowerConsist : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         TimeRecoder.text=leftTime+"s";
+      if(!opengamelevelt)
+         {TimeRecoder.text=leftTime+"s";}
          ScoreRecord.text= valueCheck + "00" ;
          ScoreRecord2.text= valueCheck + "00" ;
         //EndingGameUIcontrol.isEnd=false;
@@ -62,11 +64,17 @@ public class Level3PowerConsist : MonoBehaviour
              if(leftTime<=0)
           {
             isended = true;
-            needCloseUI.SetActive(false);
+           
             needOpenUI.SetActive(true);
             Debug.Log("time run out");
           }
         }
+        //Debug.Log(handcontroL.FingerDegreeAll);
+        if(opengamelevelt)
+        {if(handcontroL.FingerDegreeAll>50)
+        { opengamelevelt=false;
+           needCloseUI.SetActive(false);
+        }}
          
         //Debug.Log(handValue);
         handValue = handcontroL.FingerDegreeAll;

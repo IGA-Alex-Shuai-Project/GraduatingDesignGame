@@ -66,7 +66,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u606D\u559C\u4F60\u53D1\u73B0\u4E86\u6377\u5F84\uFF01\u4F46\u662F\u4E3A\u4E86\u66F4\u597D\u7684\u8BAD\u7EC3\u6548\u679C\u5EFA\u8BAE\u4E0D\u8981\u4E00\u76F4\u63E1\u62F3\u54E6"
+  m_text: Congratulations on finding the shortcut! But, please don't keep your hands
+    clenched all the time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: aa5683163f7a6e242aa93be75141ac61, type: 2}
   m_sharedMaterial: {fileID: -5459410016884986833, guid: aa5683163f7a6e242aa93be75141ac61,
@@ -94,8 +95,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -130,7 +131,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -92.66437, w: 0}
+  m_margin: {x: 0, y: 0, z: -267.2107, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

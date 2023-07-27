@@ -1251,6 +1251,44 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 877691440, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877691441, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 984056801, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222832584, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222832585, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512493968, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512493969, guid: 84bb602e75421464d81f8709663954f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189331242469136655, guid: 84bb602e75421464d81f8709663954f6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717036893454677914, guid: 84bb602e75421464d81f8709663954f6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8717036893475459891, guid: 84bb602e75421464d81f8709663954f6,
         type: 3}
       propertyPath: m_IsActive
@@ -4452,6 +4490,43 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 240369252}
     m_Modifications:
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_text
+      value: "Open your palm to the maximum extent and then make a quick fist to
+        blow up the red ball, avoid obstacles, and reach the end. Make a fist or
+        click the button to start the game\r\n\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_margin.z
+      value: 0.79782104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_lineSpacing
+      value: -18.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_wordSpacing
+      value: -4.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263390084057168420, guid: f81053e7e0e92674b94e9a5e7f853723,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: -3.74
+      objectReference: {fileID: 0}
     - target: {fileID: 7263390084057168421, guid: f81053e7e0e92674b94e9a5e7f853723,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4535,12 +4610,12 @@ PrefabInstance:
     - target: {fileID: 7263390084057168421, guid: f81053e7e0e92674b94e9a5e7f853723,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -88
+      value: -88.8
       objectReference: {fileID: 0}
     - target: {fileID: 7263390084057168421, guid: f81053e7e0e92674b94e9a5e7f853723,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 147
+      value: 158.1
       objectReference: {fileID: 0}
     - target: {fileID: 7263390084057168421, guid: f81053e7e0e92674b94e9a5e7f853723,
         type: 3}
