@@ -1,0 +1,386 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 65154 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+1517
+Successfully changed project path to: C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
+C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45188] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3109073793 [EditorId] 3109073793 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [45188] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3109073793 [EditorId] 3109073793 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 82.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001696 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 87.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (434ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 77.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1146ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5591 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 6038.
+Memory consumption went from 304.2 MB to 303.4 MB.
+Total: 3.756300 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.107600 ms MarkObjects: 3.125900 ms  DeleteObjects: 0.255700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 523477.048580 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab
+  artifactKey: Guid(ae00bb75e0cd5b04b8fe7fb4ab662629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab using Guid(ae00bb75e0cd5b04b8fe7fb4ab662629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7b7ba8bacece798f9df0f42c05ec3f') in 0.037751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055782 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab
+  artifactKey: Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab using Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941ae4b689ccfb0fe486f2d74634c571') in 0.005626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.574056 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
+  artifactKey: Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab using Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e69fe7d0b9f8bc16c9786fb561f787b') in 0.003195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083155 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
+  artifactKey: Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab using Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2b6d7726b084d97826dcb12a5207d6') in 0.003723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.433252 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping
+  artifactKey: Guid(73d309a1def48954b81d1887022b5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping using Guid(73d309a1def48954b81d1887022b5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadfe5637a40840608edd1eca0bba113') in 0.002479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.621045 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping
+  artifactKey: Guid(8f006d8d54c4b224096167cc16d4162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping using Guid(8f006d8d54c4b224096167cc16d4162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aa55d34e4263b9fdacc56968f71252') in 0.000937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066406 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/texture.png
+  artifactKey: Guid(d9e3418b7ac87144893cd4b26a5ecd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/texture.png using Guid(d9e3418b7ac87144893cd4b26a5ecd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060c0b2df8c70fa36341d8c7b1867ab6') in 0.020881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.375485 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Character
+  artifactKey: Guid(86412cf7376a2d843996c19b26cbbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Character using Guid(86412cf7376a2d843996c19b26cbbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514372f079bc498116875423c50026a7') in 0.001208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074255 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Character/Character.fbx
+  artifactKey: Guid(91cb0733f293efb49999ff71581f86b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Character/Character.fbx using Guid(91cb0733f293efb49999ff71581f86b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167122495d41397ab17137cc77cb8b97') in 0.153100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.505688 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces
+  artifactKey: Guid(f801373af2830bf48ab4338129b4441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces using Guid(f801373af2830bf48ab4338129b4441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a1d0ead62a2ff520a5d49d1be2f974') in 0.001331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086551 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/arrow.fbx
+  artifactKey: Guid(bf9f6d4a4198a0349b9336405813e4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/arrow.fbx using Guid(bf9f6d4a4198a0349b9336405813e4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c170ef392995367102c85da4516f7096') in 0.019203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084468 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cone2.fbx
+  artifactKey: Guid(87760fa007dc2ad4993bee59a0126c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cone2.fbx using Guid(87760fa007dc2ad4993bee59a0126c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea96d519d99b22bf788210534823da20') in 0.016875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028543 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cone3.fbx
+  artifactKey: Guid(7065cac1a0390f14fb5e5e6463df285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cone3.fbx using Guid(7065cac1a0390f14fb5e5e6463df285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817bfdd4dd69c7c4b2aa423808b59a9d') in 0.019352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029563 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cube9.fbx
+  artifactKey: Guid(3b8cbae6b5ea0ad4da676a431ad79663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cube9.fbx using Guid(3b8cbae6b5ea0ad4da676a431ad79663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd3da7dd812909528e49e00a8217309') in 0.013952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cylinder2.fbx
+  artifactKey: Guid(8df2685d72c70de45af0c8a525d6a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cylinder2.fbx using Guid(8df2685d72c70de45af0c8a525d6a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28bb6a19d8cdb6bf5f3ef206737f1a1') in 0.014025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cylinder3.fbx
+  artifactKey: Guid(2127c0427d3dd7942a2586c45b550c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cylinder3.fbx using Guid(2127c0427d3dd7942a2586c45b550c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c22d3be02893f6f5fb31285061a0e5e') in 0.025274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/fence.fbx
+  artifactKey: Guid(d647a3de04742c84c801d55e3a797a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/fence.fbx using Guid(d647a3de04742c84c801d55e3a797a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031c39971799e2f5a884b0f81e24677f') in 0.021584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/pillar2.fbx
+  artifactKey: Guid(e02180ca0504e02479b35813f9f8fbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/pillar2.fbx using Guid(e02180ca0504e02479b35813f9f8fbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a3cdea27c831cee5fa2b6b266f87f8') in 0.019279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/ladder1.fbx
+  artifactKey: Guid(cd4aa35e356d2d54797ce9c4808eb422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/ladder1.fbx using Guid(cd4aa35e356d2d54797ce9c4808eb422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc15ddb2426f3ce32c01e4269b42c62') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cube5.fbx
+  artifactKey: Guid(6358d9fe2aa268d4c885c15aee1eed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/cube5.fbx using Guid(6358d9fe2aa268d4c885c15aee1eed96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a265960c9e1da88f6776d1e9f5135154') in 0.017215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/door3.fbx
+  artifactKey: Guid(6bb0e5b0a0714b34f98b9d47067a7354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/door3.fbx using Guid(6bb0e5b0a0714b34f98b9d47067a7354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb4c21fc41a1c694de369609849d21f') in 0.014635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/railing edge.fbx
+  artifactKey: Guid(899bd6d581e0a2a4ba8207af3417cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/railing edge.fbx using Guid(899bd6d581e0a2a4ba8207af3417cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a64482262c2593c0d4c6c56789542a') in 0.014522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.497105 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 1
+  artifactKey: Guid(2615e44a36ea9f54f9ad3f569ca3a719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 1 using Guid(2615e44a36ea9f54f9ad3f569ca3a719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63254db89e9035226c7a2e706a428687') in 0.001133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059275 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 1/Sample 1.fbx
+  artifactKey: Guid(0ae1622e3081cb4479c3b138994e86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 1/Sample 1.fbx using Guid(0ae1622e3081cb4479c3b138994e86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7ae3aefd737b9e13f2290f4dd65a1') in 0.411665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580909 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 2
+  artifactKey: Guid(64b98d0acffd7764dbfe715d493fd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 2 using Guid(64b98d0acffd7764dbfe715d493fd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ec91f38df4cdc60162ad51fee28bb6') in 0.001112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065640 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 2/Sample 2.fbx
+  artifactKey: Guid(858bfee5a76e4cd45950f4e89ac80ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 2/Sample 2.fbx using Guid(858bfee5a76e4cd45950f4e89ac80ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fab32dcc7aad6da1742b832216a17f') in 0.550706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565057 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 4
+  artifactKey: Guid(bb97dc2409b2d6249833fbd9a673118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 4 using Guid(bb97dc2409b2d6249833fbd9a673118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff72ed8d8a8fb8314aa57a9dc23503a') in 0.001112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059832 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 4/Sample 4.fbx
+  artifactKey: Guid(17b7dc841caba0343bcf4bc19ad5d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 4/Sample 4.fbx using Guid(17b7dc841caba0343bcf4bc19ad5d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a6ed4c513404ee09340e893360e592') in 0.501671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.697450 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 5
+  artifactKey: Guid(3a549c3ddfdb1d341ab0a57aaed7a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 5 using Guid(3a549c3ddfdb1d341ab0a57aaed7a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a86c949921d5123a4cc2ccfd883848') in 0.001223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062710 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 5/Sample 5.fbx
+  artifactKey: Guid(9c8dc5cb01b6c12479d9ef0ea097c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Sample 5/Sample 5.fbx using Guid(9c8dc5cb01b6c12479d9ef0ea097c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd748438d7d85c576801e828e5aca18') in 0.076975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.170745 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/ramp.fbx
+  artifactKey: Guid(7f0931b3b7fbe2b4ba7ae56647d0324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/ramp.fbx using Guid(7f0931b3b7fbe2b4ba7ae56647d0324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e0b98f40e2012b7d3b4ca294342d61') in 0.015780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069565 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/spikes small.fbx
+  artifactKey: Guid(cea5c9d61e42a214e9523ede9767e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/spikes small.fbx using Guid(cea5c9d61e42a214e9523ede9767e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9087bf353c8acdc9255e8e3d5108a12b') in 0.027586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall corner bottom1.fbx
+  artifactKey: Guid(e6cb92b150f28454ca1c660695e5b991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall corner bottom1.fbx using Guid(e6cb92b150f28454ca1c660695e5b991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd243d79c898edf46309a5f8e00c1fb6e') in 0.028258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212791 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall corner1.fbx
+  artifactKey: Guid(c3712dc3313794946abccb5dda41405d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall corner1.fbx using Guid(c3712dc3313794946abccb5dda41405d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307dbfe2be9ffaa96593fcf8515c537') in 0.012614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall.fbx
+  artifactKey: Guid(de833847eeddf0c4bb78b184167ddafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Free 3D Modular Game Assets For Prototyping/Free 3D Modular Game Assets For Prototyping/Pieces/wall.fbx using Guid(de833847eeddf0c4bb78b184167ddafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0d64d617a96ee20e1af51e87d66ec4') in 0.013103 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
