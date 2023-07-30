@@ -11,11 +11,15 @@ public class QiuAreaStayScore : MonoBehaviour
     private int score = 0;
     private float ss = 0;
     public float Speed = 0.2f;
+    public bool lockRotate = true ;
     // Start is called before the first frame update
     void Start()
     {
         gameObject.GetComponent<Rigidbody>().useGravity = true;
         gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        if(lockRotate)
+        {gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;}
+
     }
 
     // Update is called once per frame

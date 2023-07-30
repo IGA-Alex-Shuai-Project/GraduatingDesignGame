@@ -19,6 +19,7 @@ public class LaunchBall : MonoBehaviour
     public Transform Target;
     public float MaxDistance;//框的最远距离
     public float MinDistance;//框的最近距离
+    public float LimitRange = 5;
     [Header("SetUI")]
     public TMP_Text ScoreText;
     public TMP_Text ScoreText2;
@@ -130,6 +131,13 @@ public class LaunchBall : MonoBehaviour
         ScoreText.text = score.ToString();
         ScoreText2.text = score.ToString();
         float x = Random.Range(MinDistance, MaxDistance);
-        Target.position = new Vector3(Target.position.x, Target.position.y, transform.position.z + x);
+        float exX = Target.position.z ;
+        if(Mathf.Abs(x-exX)<LimitRange)
+        {
+             x = Random.Range(MinDistance, MaxDistance);
+             Target.position = new Vector3(Target.position.x, Target.position.y,x);
+        }
+        else
+        {Target.position = new Vector3(Target.position.x, Target.position.y,x);}
     }
 }
