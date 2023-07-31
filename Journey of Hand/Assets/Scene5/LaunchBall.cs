@@ -40,6 +40,9 @@ public class LaunchBall : MonoBehaviour
     private float B = 0;
     StaticSceneTimeRestrict SSTR;
     public GameObject TimeAddRemind;
+    public AudioSource releaseBallAudio;
+    public AudioSource BallInHoleAudio;
+    public AudioSource BallInRefreshAudio;
     void Start()
     {   SSTR = timeRecoder.GetComponent<StaticSceneTimeRestrict>();
         slider.value = sliderValue ;
@@ -100,6 +103,7 @@ public class LaunchBall : MonoBehaviour
         Vector3 launchDeraction=BallResetPoint.up;
         rb.AddForce(launchDeraction * Force);
         launched = false ;
+        releaseBallAudio.Play();
         Invoke(nameof(ResetBall), resetTime);}
      
     }
@@ -111,6 +115,7 @@ public class LaunchBall : MonoBehaviour
         {
             Destroy(curBall);
             curBall = Instantiate(Ball, BallResetPoint.position, Quaternion.identity);
+            BallInRefreshAudio.Play();
             rb = curBall.GetComponent<Rigidbody>();
             curBall.GetComponent<Ball>().launcher = this;
              launched = true;
@@ -123,6 +128,7 @@ public class LaunchBall : MonoBehaviour
     { 
         ResetBall();
         Debug.Log("enterArea");
+        BallInHoleAudio.Play();
         score += 1;
         SSTR.endingTime+=15;
         B = SSTR.endingTime;

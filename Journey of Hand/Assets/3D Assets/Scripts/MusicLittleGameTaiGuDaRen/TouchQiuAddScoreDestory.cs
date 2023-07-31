@@ -13,6 +13,7 @@ public class TouchQiuAddScoreDestory : MonoBehaviour
     private bool numberSwitch = false ;
     public GameObject hand;
     private bool fingeropen = true ;
+    public AudioSource AudioBoom ;
     void Start()
     {
         //FingerDegree = GetComponent<HandControl>();
@@ -54,6 +55,7 @@ public class TouchQiuAddScoreDestory : MonoBehaviour
               if (renderer != null)
               {
                 renderer.enabled = false;
+                AudioBoom.Play();
               }
            }
            

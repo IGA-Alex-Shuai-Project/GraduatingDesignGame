@@ -21,6 +21,7 @@ public class HandControl : MonoBehaviour
     private bool goBreak = true;
     public float fingerflyLimit = 200;
     public float FingerDegreeAll ;
+    public AudioSource grabAudio ;
     MessageManager messageManager;
 
     void Start()
@@ -156,6 +157,10 @@ public class HandControl : MonoBehaviour
             }
             if (goFly)
             {
+                if(grabAudio!=null)
+                {
+                    grabAudio.Play();
+                }
                 FlyQiuRib.velocity = new Vector3(0, flyForce, 0f);
                 goFly = false;
             }

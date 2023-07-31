@@ -37,6 +37,8 @@ public class Level3PowerConsist : MonoBehaviour
     public GameObject needCloseUI;
     public GameObject needOpenUI;
     private bool opengamelevelt = true ;
+    private bool gameStart = false;
+    public AudioSource grabAudio ;
     
 
 
@@ -48,14 +50,16 @@ public class Level3PowerConsist : MonoBehaviour
         handcontroL = hand.GetComponent<HandControl>();
         limitLevelTwo = 2 * limitLevelOne;
         limitLevelThree = limitLevelTwo + limitLevelOne;
-        StartCoroutine(Countdown());
+        
     }
 
     // Update is called once per frame
     void Update()
     {
       if(!opengamelevelt)
-         {TimeRecoder.text=leftTime+"s";}
+         {TimeRecoder.text=leftTime+"s";
+           
+         }
          ScoreRecord.text= valueCheck + "00" ;
          ScoreRecord2.text= valueCheck + "00" ;
         //EndingGameUIcontrol.isEnd=false;
@@ -74,6 +78,8 @@ public class Level3PowerConsist : MonoBehaviour
         {if(handcontroL.FingerDegreeAll>50)
         { opengamelevelt=false;
            needCloseUI.SetActive(false);
+           gameStart = true ;
+           StartCoroutine(Countdown());
         }}
          
         //Debug.Log(handValue);
@@ -93,6 +99,7 @@ public class Level3PowerConsist : MonoBehaviour
             objectScaleBasicValue += objectScaleChangeValue;
             valueCheck += 1 ;
             fingerFist = false;
+            grabAudio.Play();
             pressButton.transform.position = new Vector3(pressButton.transform.position.x,pressDepth,pressButton.transform.position.z);
             Debug.Log(objectScaleBasicValue);
             Debug.Log(valueCheck);
@@ -137,11 +144,14 @@ public class Level3PowerConsist : MonoBehaviour
     }
     IEnumerator Countdown()
     {
-        while (leftTime > 0)
-        {
+      if(gameStart)
+        {Debug.Log("666");
+          while (leftTime > 0)
+          {
             yield return new WaitForSeconds(1f); // 暂停1秒
             leftTime--;
             //Debug.Log("Remaining time: " + leftTime);
+          }
         }
     }
 }
