@@ -13,6 +13,13 @@ public class MessageManager : MonoBehaviour
     public float Degree_Middle;
     public float Degree_Ring;
     public float Degree_Pinky;
+    public bool whetherNewVersion = false;
+    public float Accel_x;
+    public float Accel_y;
+    public float Accel_z;
+    public float Gyro_x;
+    public float Gyro_y;
+    public float Gyro_z;
     public float Allnumbers;
     // Initialization
     void Start()
@@ -41,6 +48,16 @@ public class MessageManager : MonoBehaviour
             Degree_Middle = float.Parse(m[2]);
             Degree_Ring= float.Parse(m[3]);
             Degree_Pinky= float.Parse(m[4]);
+            // other input
+            if(whetherNewVersion)
+            {
+                Accel_x = float.Parse(m[5]);
+                Accel_y = float.Parse(m[6]);
+                Accel_z = float.Parse(m[7]);
+                Gyro_x = float.Parse(m[8]);
+                Gyro_y = float.Parse(m[9]);
+                Gyro_z = float.Parse(m[10]);
+            }
         }
         Allnumbers = Degree_Thumb + Degree_Index + Degree_Middle + Degree_Pinky + Degree_Ring;
         startComDataScriptObject.FingertotalNumber = Allnumbers;
