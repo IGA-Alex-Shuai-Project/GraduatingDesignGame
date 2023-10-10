@@ -23,28 +23,17 @@ public class HandControl : MonoBehaviour
     public float FingerDegreeAll ;
     public AudioSource grabAudio ;
     MessageManager messageManager;
-    public bool ActiveDynamicState = false ;
-
-    float oriY;
 
     void Start()
     {  
         messageManager=GetComponent<MessageManager>(); 
         FingerDegreeAll = 0;
-        oriY=transform.position.y;
     }
     void Update()
     { 
         FuZhi(); 
         QiuFly();
         FingerDegreeAll = (fingerWu + fingerShi + fingerDa + fingerZhon + fingerXiao)/5;
-
-        if(ActiveDynamicState)
-        {
-            transform.Translate(messageManager.Acceleration*Time.deltaTime,Space.Self);
-            //transform.Rotate(messageManager.Gyroscope* Time.deltaTime,Space.Self);
-            transform.position=new Vector3(transform.position.x,oriY,transform.position.z);
-        }
     }
     private void FixedUpdate()
     { FingerAct();  }

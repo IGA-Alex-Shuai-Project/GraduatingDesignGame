@@ -21,11 +21,6 @@ public class MessageManager : MonoBehaviour
     public float Gyro_y;
     public float Gyro_z;
     public float Allnumbers;
-    //移动加速度和旋转加速度
-    public Vector3 Acceleration;
-    public Vector3 Gyroscope;
-    public float AccelerSensitivity=1.0f;
-
     // Initialization
     void Start()
     {
@@ -62,15 +57,9 @@ public class MessageManager : MonoBehaviour
                 Gyro_x = float.Parse(m[8]);
                 Gyro_y = float.Parse(m[9]);
                 Gyro_z = float.Parse(m[10]);
-                 //移动和旋转向量赋值
-            //Acceleration = new Vector3(Mathf.Abs(float.Parse(m[5])) > AccelerSensitivity ? float.Parse(m[5]) :0,Mathf.Abs(float.Parse(m[7])) > AccelerSensitivity ? float.Parse(m[7]) : 0 ,Mathf.Abs(float.Parse(m[6])) > AccelerSensitivity ? float.Parse(m[6]) : 0);
-                        Acceleration = new Vector3(Mathf.Abs(float.Parse(m[5])) > AccelerSensitivity ? float.Parse(m[5]) :0,Mathf.Abs(float.Parse(m[6])) > AccelerSensitivity ? float.Parse(m[6]) : 0 , Mathf.Abs(float.Parse(m[7])) > AccelerSensitivity ? float.Parse(m[7]) : 0);
-
-            Gyroscope = new Vector3(float.Parse(m[8]), -float.Parse(m[9]), float.Parse(m[10]));
             }
         }
         Allnumbers = Degree_Thumb + Degree_Index + Degree_Middle + Degree_Pinky + Degree_Ring;
-       
         startComDataScriptObject.FingertotalNumber = Allnumbers;
     }
 }

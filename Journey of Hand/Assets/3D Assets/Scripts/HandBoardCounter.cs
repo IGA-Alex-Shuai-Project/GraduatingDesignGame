@@ -14,7 +14,7 @@ public class HandBoardCounter : MonoBehaviour
     private void Update() {
         if(touchBoard)
         {
-            Invoke("invokeObject",0.5f);
+            Invoke("resetBool",0.5f);
         }
     }
     private void OnTriggerEnter(Collider other)

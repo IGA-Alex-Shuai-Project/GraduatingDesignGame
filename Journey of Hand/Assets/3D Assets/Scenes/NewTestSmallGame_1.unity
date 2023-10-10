@@ -22344,11 +22344,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 919132148669046555, guid: 5191b1a186e46854191c91d6893fdda3,
-        type: 3}
-      propertyPath: ActiveDynamicState
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1526682743810798706, guid: 5191b1a186e46854191c91d6893fdda3,
         type: 3}
       propertyPath: m_RootOrder
@@ -22408,16 +22403,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HandScriptTest
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632611427557893025, guid: 5191b1a186e46854191c91d6893fdda3,
-        type: 3}
-      propertyPath: whetherNewVersion
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8745104111574400052, guid: 5191b1a186e46854191c91d6893fdda3,
-        type: 3}
-      propertyPath: baudRate
-      value: 115200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5191b1a186e46854191c91d6893fdda3, type: 3}
