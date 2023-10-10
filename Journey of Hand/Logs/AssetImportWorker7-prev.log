@@ -9,11 +9,11 @@ D:\Unity\UnityDifferentVertions\2021.3.15f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker7
 -projectPath
 C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker7.log
 -srvPort
 4836
 Successfully changed project path to: C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGame/Journey of Hand
@@ -47,11 +47,11 @@ C:/Users/Zhangzonshuai/Documents/GitHub/GraduatingGameDesign/GraduatingDesignGam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14772] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1486107840 [EditorId] 1486107840 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [81824] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1480006946 [EditorId] 1480006946 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14772] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1486107840 [EditorId] 1486107840 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [81824] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 1480006946 [EditorId] 1480006946 [Version] 1048832 [Id] WindowsEditor(7,Barry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 102.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,83 +67,83 @@ Initialize mono
 Mono path[0] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity/UnityDifferentVertions/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003502 seconds.
+Registered in 0.002968 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 90.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
+- Completed reload, in  0.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006636 seconds.
+Registered in 0.009342 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 116.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
+- Completed reload, in  1.447 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1402ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (116ms)
-		EndReloadAssembly (1140ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (695ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (726ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (377ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,13 +151,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5591 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 6039.
-Memory consumption went from 303.0 MB to 302.2 MB.
-Total: 4.445000 ms (FindLiveObjects: 0.445000 ms CreateObjectMapping: 0.335400 ms MarkObjects: 3.280700 ms  DeleteObjects: 0.382500 ms)
+Memory consumption went from 303.1 MB to 302.2 MB.
+Total: 3.027600 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.112000 ms MarkObjects: 2.279800 ms  DeleteObjects: 0.356300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,50 +173,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009381 seconds.
+Registered in 0.009146 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Zhangzonshuai\Documents\GitHub\GraduatingGameDesign\GraduatingDesignGame\Journey of Hand\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
+- Completed reload, in  0.950 seconds
 Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (778ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (795ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (429ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5405 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 40 unused Assets / (0.9 MB). Loaded Objects now: 6055.
-Memory consumption went from 288.0 MB to 287.2 MB.
-Total: 3.445100 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.164800 ms MarkObjects: 2.660300 ms  DeleteObjects: 0.301400 ms)
+Memory consumption went from 288.1 MB to 287.2 MB.
+Total: 4.430100 ms (FindLiveObjects: 0.445400 ms CreateObjectMapping: 0.168800 ms MarkObjects: 3.420700 ms  DeleteObjects: 0.393600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -231,10 +231,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 773878.321987 seconds.
-  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_F_2.prefab
-  artifactKey: Guid(ec56a892d3fca384797457726eae58a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_F_2.prefab using Guid(ec56a892d3fca384797457726eae58a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd17b4b01325af7ad1c45f7504a76ef2') in 0.606749 seconds 
+  Time since last request: 773877.869592 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_2.prefab
+  artifactKey: Guid(a081d1cb80847014f91adb45d28d23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_2.prefab using Guid(a081d1cb80847014f91adb45d28d23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60faf80102bce4c03fb2e80d4c7fe1ee') in 0.599042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_E_11.prefab
+  artifactKey: Guid(4490a9200a1675a42925015d5e07e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_E_11.prefab using Guid(4490a9200a1675a42925015d5e07e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082f5aa637f00f586e2c2e2609f69ad') in 0.017527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_H_5.prefab
+  artifactKey: Guid(1a88cd6eb1fa61e408fb3bfa29df82ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_H_5.prefab using Guid(1a88cd6eb1fa61e408fb3bfa29df82ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601926b5c0b675552c4698f9d0d670ff') in 0.017799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_7.prefab
+  artifactKey: Guid(ff640bec711d6e148ad3fa506fb9305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_7.prefab using Guid(ff640bec711d6e148ad3fa506fb9305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11f1b99969af58ea90d4aa8abe6dff3') in 0.016424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_3.prefab
+  artifactKey: Guid(6887f888adea48c468bf5a2b3e283105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_3.prefab using Guid(6887f888adea48c468bf5a2b3e283105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b3de0962c3d5eea4980d81d0e2d348') in 0.013806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_8.prefab
+  artifactKey: Guid(8a77e9a0ae5fcd347bf36dc57ced12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_J_8.prefab using Guid(8a77e9a0ae5fcd347bf36dc57ced12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b59210ae4f225e1e0335eb1e6e90ce6') in 0.015716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_I_2.prefab
+  artifactKey: Guid(6d62431285f6d6c4b9084bf2a2f8db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_I_2.prefab using Guid(6d62431285f6d6c4b9084bf2a2f8db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0da5046545bc52da607b8862f178f1') in 0.017051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_1.prefab
+  artifactKey: Guid(d4b38d6d82866fb41b1677c36118bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_1.prefab using Guid(d4b38d6d82866fb41b1677c36118bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ead4e45425bce55b7974b0ab12431b') in 0.017499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_5.prefab
+  artifactKey: Guid(06d34fdf7eb5a974f85ee24b004561bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_G_5.prefab using Guid(06d34fdf7eb5a974f85ee24b004561bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10436af0cd374f04ecc7af8231fb06d') in 0.014793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_K_10.prefab
+  artifactKey: Guid(5b2f1e7761f1144448c14842e4302da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyGameScene/Z ! Low Poly Nature Pack/Prefabs/ZLPP_Grass_K_10.prefab using Guid(5b2f1e7761f1144448c14842e4302da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb50b77f4e74bea8abe982cdea610a7') in 0.298655 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
