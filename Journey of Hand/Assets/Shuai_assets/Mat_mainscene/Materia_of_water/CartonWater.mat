@@ -37,13 +37,13 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _rippleDensity: 43.92
+    - _rippleDensity: 45.76
     - _rippleStrgenth: 8.1
     - _transparent: 0.47
-    - _waterSpeed: 2.9
+    - _waterSpeed: 4.06
     m_Colors:
     - _baseblue: {r: 0.08176094, g: 0.5386838, b: 1, a: 0}
-    - _rippleColor: {r: 0.28667733, g: 0.43957192, b: 1.216786, a: 0}
+    - _rippleColor: {r: 2.8235295, g: 4.329412, b: 11.984314, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4242039372484958058
 MonoBehaviour:
